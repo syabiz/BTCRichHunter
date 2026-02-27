@@ -1,0 +1,15 @@
+{
+    "telegram": {
+        "enabled": true,
+        "bot_token": "Your_Telegram_Bot_API_Key",
+        "chat_id": "1082434323",
+        "send_file": true
+    },
+    "targets": [
+        "btc.txt",
+        "Bitcoin_addresses_LATEST.txt.gz"
+    ],
+    "found_file": "found.txt",
+    "gpu_batch": 8192,
+    "cpu_batch": 1000
+}
